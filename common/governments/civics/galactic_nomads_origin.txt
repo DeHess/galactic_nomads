@@ -5,7 +5,7 @@ origin_galactic_nomads = {
 
 	starting_colony = pc_habitat
 	habitability_preference = pc_habitat
-	initializers = { void_dweller_system }
+	initializers = { galactic_nomads_system }
 	preferred_planet_class_neighbor = no
 
 	description = "origin_galactic_nomads_tooltip"
@@ -32,12 +32,10 @@ origin_galactic_nomads = {
 	}
 
 	modifier = {
-		pop_resettlement_cost_mult = -0.2
+		pop_resettlement_cost_mult = -0.25
 	}
 
-	traits = {
-		trait = trait_void_dweller_1
-	}
+
 
 	random_weight = {
 		base = 1
