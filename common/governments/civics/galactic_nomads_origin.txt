@@ -28,6 +28,7 @@ origin_galactic_nomads = {
 				value = civic_anglers
 				value = civic_corporate_anglers
 			}
+			
 		}
 	}
 
@@ -35,7 +36,9 @@ origin_galactic_nomads = {
 		pop_resettlement_cost_mult = -0.25
 	}
 
-
+	traits = {
+		trait = trait_space_nomads
+	}
 
 	random_weight = {
 		base = 1
