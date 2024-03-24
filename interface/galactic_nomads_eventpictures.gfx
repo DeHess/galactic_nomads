@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_galactic_nomads"
+		texturefile = "gfx/event_pictures/origins/galactic_nomads_picture.dds"
+		alwaysTransparent = yes
+	}
+}

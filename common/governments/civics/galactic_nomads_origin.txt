@@ -1,0 +1,45 @@
+origin_galactic_nomads = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/galactic-nomads-icon.dds"
+	picture = GFX_galactic_nomads
+
+	starting_colony = pc_habitat
+	habitability_preference = pc_habitat
+	initializers = { void_dweller_system }
+	preferred_planet_class_neighbor = no
+
+	description = "origin_galactic_nomads_tooltip"
+
+	playable = {
+		host_has_dlc = Federations
+	}
+
+	possible = {
+		always = yes
+		civics = {
+			NOR = {
+				text = civic_tooltip_not_idyllic_bloom
+				value = civic_idyllic_bloom
+				value = civic_hive_idyllic_bloom
+			}
+			NOT = { value = civic_agrarian_idyll }
+			NOR = {
+				text = civic_tooltip_not_anglers
+				value = civic_anglers
+				value = civic_corporate_anglers
+			}
+		}
+	}
+
+	modifier = {
+		pop_resettlement_cost_mult = -0.2
+	}
+
+	traits = {
+		trait = trait_void_dweller_1
+	}
+
+	random_weight = {
+		base = 1
+	}
+}
