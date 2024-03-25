@@ -1,0 +1,31 @@
+namespace = galactic_nomads
+
+#Admiral trait added
+country_event = {
+	id = galactic_nomads.20
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		from.species = {
+			has_trait = trait_space_nomads
+		}
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				from.species = { has_trait = trait_space_nomads }
+			}
+			from = {
+				if = {
+					limit = {
+						leader_class = commander
+					}
+					add_trait = leader_trait_space_nomads
+				}
+			}
+		}
+	}
+}
