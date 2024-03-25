@@ -1,5 +1,5 @@
 trait_space_nomads = {
-	icon = "gfx/interface/icons/traits/trait_void_dweller_positive.dds"
+	icon = "gfx/interface/icons/traits/trait_galactic_nomads.dds"
 	initial = no
 	species_potential_add = {
 		exists = from
@@ -70,7 +70,7 @@ leader_trait_space_nomads = {
 	inline_script = {
 		script = trait/icon
 		CLASS = commander
-		ICON = GFX_leader_trait_clone_soldier
+		ICON = GFX_leader_trait_galactic_nomads
 		RARITY = common
 		COUNCIL = no
 		TIER = none
