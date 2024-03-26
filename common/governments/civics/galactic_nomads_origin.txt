@@ -9,6 +9,7 @@ origin_galactic_nomads = {
 	preferred_planet_class_neighbor = no
 
 	description = "origin_galactic_nomads_tooltip"
+	negative_description = "origin_tooltip_galactic_nomads_negative_effects"
 
 	playable = {
 		host_has_dlc = Federations

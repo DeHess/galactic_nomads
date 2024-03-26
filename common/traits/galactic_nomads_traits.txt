@@ -18,10 +18,9 @@ trait_space_nomads = {
 	allowed_archetypes = { BIOLOGICAL LITHOID }
 	sorting_priority = 30
 	potential_crossbreeding_chance = 0.33
-	custom_tooltip_with_modifiers = void_dweller_trait_tooltip #unlike custom_tooltip, this shows in addition to the modifiers
 
 	improves_leaders = yes
-
+	custom_tooltip_with_modifiers = trait_space_nomads_tooltip
 	triggered_pop_modifier = {
 		potential = {
 			exists = planet
@@ -80,6 +79,8 @@ leader_trait_space_nomads = {
 	}
 	fleet_modifier = {
 		ship_speed_mult = 0.2
+		ship_hull_regen_add_perc = 0.001
+		ship_armor_regen_add_perc = 0.001
 	}
 	leader_class = { commander }
 	initial = no
