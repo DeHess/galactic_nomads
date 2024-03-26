@@ -24,6 +24,7 @@ origin_galactic_nomads = {
 				value = civic_hive_idyllic_bloom
 			}
 			NOT = { value = civic_agrarian_idyll }
+			NOT = { value = civic_sovereign_guardianship }
 			NOR = {
 				text = civic_tooltip_not_anglers
 				value = civic_anglers
@@ -34,7 +35,9 @@ origin_galactic_nomads = {
 	}
 
 	modifier = {
-		pop_resettlement_cost_mult = -0.25
+		empire_size_districts_mult = -0.50
+		empire_size_colonies_mult = 1
+		empire_size_systems_mult = 2
 	}
 
 	traits = {

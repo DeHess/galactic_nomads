@@ -1,15 +1,15 @@
 ﻿l_english:
   origin_galactic_nomads: "Galactic Nomads"
   origin_galactic_nomads_desc: "Galactic Nomads Description"
-  origin_galactic_nomads_tooltip:2 "- $HOMEWORLD$ ['concept_pc_habitat'] (size: £planetsize£ 30)$NEW_LINE$- $SPECIES_TRAITS$$TABBED_NEW_LINE$- ['concept_galactic_nomads', $trait_galactic_nomads$]$TABBED_NEW_LINE$- ['concept_habitat_preference', $trait_pc_habitat_preference$]"
+  origin_galactic_nomads_tooltip:2 "- $HOMEWORLD$ $TABBED_NEW_LINE$- Unique ['concept_pc_habitat', Orbital Habitat] $TABBED_NEW_LINE$$t$- Districts added through fleet components $NEW_LINE$- $SPECIES_TRAITS$$TABBED_NEW_LINE$- ['concept_galactic_nomads', $trait_galactic_nomads$]$TABBED_NEW_LINE$- ['concept_habitat_preference', $trait_pc_habitat_preference$]"
   origin_tooltip_galactic_nomads_negative_effects: "- $NO_GUARANTEED_WORLDS$"
   
   trait_space_nomads: "Spacefaring Nomads"
   trait_space_nomads_desc: "Spacefaring Nomads Trait Description"
-  trait_space_nomads_tooltip:2 "Housing Usage on §Habitats§!: §G-20%§!\nHappiness on §Habitats§!: §G+10%§!\nHousing Usage on §non-Habitats§!: §R+20%§!\nHappiness on §non-Habitats§!: §R-10%§!\n\n"
+  trait_space_nomads_tooltip:2 "Housing Usage on Habitats: §G-20%§!\nHappiness on Habitats: §G+10%§!\nHousing Usage on non-Habitats: §R+20%§!\nHappiness on non-Habitats: §R-10%§!\n\n"
   
   leader_trait_space_nomads: "Nomadic Navigator"
   leader_trait_space_nomads_desc: "Nomadic Navigator Description"
   
   concept_galactic_nomads: "$trait_space_nomads$"
-  concept_galactic_nomads_desc: "$trait_space_nomads_tooltip$\n§L$trait_space_nomads_desc$§"
+  concept_galactic_nomads_desc: "$trait_space_nomads_tooltip$§L$trait_space_nomads_desc$§"
