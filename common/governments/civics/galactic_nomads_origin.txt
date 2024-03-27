@@ -37,7 +37,7 @@ origin_galactic_nomads = {
 	modifier = {
 		empire_size_districts_mult = -0.50
 		empire_size_colonies_mult = 1
-		empire_size_systems_mult = 2
+		empire_size_systems_mult = 1
 	}
 
 	traits = {

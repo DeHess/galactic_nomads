@@ -79,8 +79,8 @@ leader_trait_space_nomads = {
 	}
 	fleet_modifier = {
 		ship_speed_mult = 0.2
-		ship_hull_regen_add_perc = 0.001
-		ship_armor_regen_add_perc = 0.001
+		ship_disengage_chance_mult = 0.2
+		fleet_mia_time_mult = -0.2
 	}
 	leader_class = { commander }
 	initial = no
